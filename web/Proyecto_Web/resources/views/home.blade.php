@@ -15,11 +15,7 @@
                     <div class="mb-3">
                         <label for="tipo_produc-select" class="form-label">Tipo Producto</label>
                         <select class="form-select" id="tipo_produc-select">
-                            <option value="comida">Comida</option>
-                            <option value="limpieza">Limpieza</option>
-                            <option value="medicamento">Medicamento</option>
-                            <option value="electronico">Electronico</option>
-                
+                            
                         </select>
                     </div>
                     <div class="mb-3">
@@ -33,4 +29,7 @@
             </div>
         </div>
     </div>
+@endsection
+@section("javascript")
+    <script src="{{asset('js/home.js')}}"></script>
 @endsection
